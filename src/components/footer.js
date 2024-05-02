@@ -4,7 +4,7 @@ export default function Footer({
   text = "Lorem ipsum dolor sit amet consectetur adipisicing illum ab eos! Dolores dolore harum corrupti",
 }) {
   return (
-    <div className="bg-[#fffad6] px-6 py-4 flex items-end">
+    <div className="bg-[#fffad6] px-6 py-4 ">
       <div className="flex flex-col-reverse md:flex-row gap-6 md:justify-between items-center justify-center  py-10 max-w-6xl mx-auto  space-y-4">
         {/* <div className=""> */}
         <div className="flex flex-col gap-4 text-center md:text-start">
