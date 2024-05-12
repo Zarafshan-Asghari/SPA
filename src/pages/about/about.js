@@ -18,7 +18,7 @@ export default function About() {
     <>
       <MyNavbar />
       <div className="max-w-6xl mx-auto">
-        <section className="flex items-center justify-center flex-col py-12 my-10 px-6 bg-gray-100 ">
+        <section className="flex items-center justify-center flex-col py-12 my-10 px-6 ">
           <h2 className="text-3xl font-bold text-orange-800 mb-4 text-center">
             Grow Up Your learning Speed.
           </h2>
@@ -31,7 +31,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="num-item bg-white rounded-lg shadow-lg p-6 text-center">
               <span className="block text-3xl font-bold text-gray-800">
-                2,882 <br />
+                3,882 <br />
                 Customers
               </span>
             </div>
@@ -43,14 +43,14 @@ export default function About() {
             </div>
             <div className="num-item bg-white rounded-lg shadow-lg p-6 text-center">
               <span className="block text-3xl font-bold text-gray-800">
-                7,592 <br />
+                1,592 <br />
                 Downloads
               </span>
             </div>
           </div>
         </section>
 
-        <section id="goal" className="py-12 px-6 bg-gray-100">
+        <section id="goal" className="py-12 px-6 ">
           <div className="container mx-auto flex flex-col-reverse gap-8 md:flex-row items-center justify-between">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -69,7 +69,7 @@ export default function About() {
           </div>
         </section>
 
-        <section id="our-Team" className="py-12 px-6 bg-gray-100">
+        <section id="our-Team" className="py-12 px-6  mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Member</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Repeat this div for each team member */}

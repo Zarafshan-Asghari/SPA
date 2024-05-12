@@ -64,10 +64,10 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/panel"
+              to="/article"
               className="capitalize group hover:text-[#bb3e03] font-semibold tracking-wide transition-all duration-150 pb-2  hover:border-b-2 border-[#bb3e03]"
             >
-              Panel
+              articles
             </NavLink>
           </li>
           <li>

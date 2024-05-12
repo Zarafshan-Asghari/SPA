@@ -1,6 +1,6 @@
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
-import Panel from "./pages/panel/panel";
+import Article from "./pages/article/article";
 import Login from "./pages/login/login";
 import Course from "./pages/course/course";
 import Blog from "./pages/blog/blog";
@@ -10,11 +10,11 @@ const routes = [
   { path: "/", element: <Home></Home> },
   { path: "/about", element: <About></About> },
   {
-    path: "/panel",
+    path: "/article",
     element: (
       <PrivteRoute>
         {" "}
-        <Panel />
+        <Article />
       </PrivteRoute>
     ),
   },
