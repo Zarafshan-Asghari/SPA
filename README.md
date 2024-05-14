@@ -1,2 +1,2 @@
 sigle page app link:
-https://first-app-tau-eight.vercel.app/
+https://spa-react-git-master-zarafshans-projects.vercel.app/article
